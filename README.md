@@ -29,10 +29,9 @@ use Rack::DynamicReverseProxy do
   reverse_proxy_options preserve_host: true
 
   reverse_proxy_rule do |env|
-    p env.url
-    p env.host
-    p env.fullpath
-    'http://example.com/'
+    if /test/.match env.fullpath
+      'http://example.com/'
+    end
   end
 end
 
