@@ -47,7 +47,7 @@ run app
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/rack-dynamic-reverse-proxy/fork )
+1. Fork it ( https://github.com/k-shogo/rack-dynamic-reverse-proxy/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
